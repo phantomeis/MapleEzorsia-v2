@@ -24,15 +24,15 @@ You can set your own options in the `config.ini` for:
 ## How to use (DLL only)
 
 In your v83 MapleStory directory:
-1. Insert the `dinput8.dll` and WZ/IMG files from [Releases](https://github.com/444Ro666/MapleEzorsia-v2/releases) into the game directory.
+1. Insert the `dinput8.dll` and WZ/IMG files from [Releases](https://github.com/Phantomeis/MapleEzorsia-v2/tree/main/Release) into the game directory.
    - Choose the WZ of your client loads WZ files, choose .img when you load .img files.
    - All files except .IMG go into the same folder as your game .exe, .IMG file(s) go in the `/Data/` folder, which only exists for .IMG loading client users.
 2. Open the `config.ini` (will be auto-generated when you try to start the game with DLL) and edit the values to your liking.
-   - For compatibility with your own WZ edits, see the [troubleshooting section](https://github.com/444Ro666/MapleEzorsia-v2/wiki/v83%E2%80%90Client%E2%80%90Setup%E2%80%90and%E2%80%90Development%E2%80%90Guide#troubleshooting).
+   - For compatibility with your own WZ edits, see the [troubleshooting section](https://github.com/phantomeis/MapleEzorsia-v2/wiki/v83%E2%80%90Client%E2%80%90Setup%E2%80%90and%E2%80%90Development%E2%80%90Guide#Troubleshooting).
    - I suggest doing all your edits in your own `EzorsiaV2_UI.wz` or `MapleEzorsiaV2wzfiles.img` (if using .IMG) file to avoid WZ conflicts with the base game, and to ensure you can keep track of them.
    - You can load your edits from these custom files by using the string pool hook provided in the release source code.
 3. Run your Game and enjoy!
-4. If you ran into problems like your game not launching, check out the [troubleshooting section](https://github.com/444Ro666/MapleEzorsia-v2/wiki/v83%E2%80%90Client%E2%80%90Setup%E2%80%90and%E2%80%90Development%E2%80%90Guide#troubleshooting).
+4. If you ran into problems like your game not launching, check out the [troubleshooting section](https://github.com/phantomeis/MapleEzorsia-v2/wiki/v83%E2%80%90Client%E2%80%90Setup%E2%80%90and%E2%80%90Development%E2%80%90Guide#Troubleshooting).
 
 ### Optional stuff: 
 - [If you want borderless fullscreen and better graphics, check out Magpie](https://github.com/Blinue/Magpie). I personally use this when playing on 1280x720 to force it to cover my screen without graphic quality loss.
@@ -58,10 +58,6 @@ In your v83 MapleStory directory:
 - Logos on game load that can be turned on and off.
 - All of the resolution edits that came with original Ezorsia (ones that cause issues have been commented out but still kept for reference).
 - Most of the resolution edits from the [RageZone resolution addresses release](https://forum.ragezone.com/threads/all-addresses-for-v83-resolution-change.1161938/), with problematic ones removed and addresses not repeated versus the original Ezorsia addresses.
-
-These are only the features/fixes at release, [there have been additions](https://github.com/444Ro666/MapleEzorsia-v2/wiki/Change-Log) after release.
-
-
 
 # Technical Stuff from Author
 This DLL modifies addresses in a default, packed, v83 MapleStory client fresh from installation to enable the game to run, as well as changes the game window and canvas resolution to HD. Most in-game component boundaries are also modified to scale with the custom resolution.
