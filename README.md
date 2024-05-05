@@ -23,11 +23,9 @@ You can set your own options in the `config.ini` for:
   
 ## How to use (DLL only)
 
-In your v83 MapleStory directory:
-1. Insert the `dinput8.dll` and WZ/IMG files from [Releases](https://github.com/Phantomeis/MapleEzorsia-v2/tree/main/Release) into the game directory.
-   - Choose the WZ of your client loads WZ files, choose .img when you load .img files.
-   - All files except .IMG go into the same folder as your game .exe, .IMG file(s) go in the `/Data/` folder, which only exists for .IMG loading client users.
-2. Open the `config.ini` (will be auto-generated when you try to start the game with DLL) and edit the values to your liking.
+1. Download all files from [Releases](https://github.com/Phantomeis/MapleEzorsia-v2/tree/main/Release) into your v83 MapleStory directory
+   - You can skip the ´/Data´ fodler if you dont plan to load IMG files with your client.
+2. Open the `config.ini` (will be auto-generated when removed) and edit the values to your liking.
    - For compatibility with your own WZ edits, see the [troubleshooting section](https://github.com/phantomeis/MapleEzorsia-v2/wiki/v83%E2%80%90Client%E2%80%90Setup%E2%80%90and%E2%80%90Development%E2%80%90Guide#Troubleshooting).
    - I suggest doing all your edits in your own `EzorsiaV2_UI.wz` or `MapleEzorsiaV2wzfiles.img` (if using .IMG) file to avoid WZ conflicts with the base game, and to ensure you can keep track of them.
    - You can load your edits from these custom files by using the string pool hook provided in the release source code.
