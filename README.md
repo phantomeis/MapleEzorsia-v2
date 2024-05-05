@@ -64,7 +64,13 @@ The original goal of this DLL is to allow an old 4:3 aspect ratio game to work o
 
 This standalone DLL client is designed to provide a quality, relatively safe, open-source client setup to work alongside open-source servers. This DLL will work with any client or localhost, including the one that comes from a default installation of the game. Deletion of files that come from a default installation is also unnecessary for it to work.
 
-This code can only be compiled on the x86 platform. !([Compilation settings](/images/compilationdoesntworkrelease.jpg) (if DLL from compilation settings doesn't work, !([Compilation settings](/images/compilationdoesntworkrelease.jpg
+This code can only be compiled on the x86 platform.  
+Try these settings if compiling throws errors:  
+![Compilation settings](/images/compilationdoesntworkrelease.jpg)  
+  
+  
+Try these settings when debugging doesn't work:  
+![Compilation settings](/images/compilationdoesntworkrelease.jpg)
 
 - [HD client setup instructions/development guide](https://github.com/444Ro666/MapleEzorsia-v2/wiki/v83%E2%80%90Client%E2%80%90Setup%E2%80%90and%E2%80%90Development%E2%80%90Guide)
 - Original Ezorsia: [Link](https://github.com/izarooni/MapleEzorsia)
