@@ -70,7 +70,7 @@ Try these settings if compiling throws errors:
   
   
 Try these settings when debugging doesn't work:  
-![Compilation settings](/images/compilationdoesntworkrelease.jpg)
+![Compilation settings](/images/compilationdoesntworkdebug.jpg)
 
 - [HD client setup instructions/development guide](https://github.com/444Ro666/MapleEzorsia-v2/wiki/v83%E2%80%90Client%E2%80%90Setup%E2%80%90and%E2%80%90Development%E2%80%90Guide)
 - Original Ezorsia: [Link](https://github.com/izarooni/MapleEzorsia)
